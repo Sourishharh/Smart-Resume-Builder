@@ -1,6 +1,6 @@
-# Smart-Resume-Builder
+## Smart Resume Builder
 
-Smart Resume Builder is a feature-rich full-stack MERN web application designed to help users create, customize, and manage professional, ATS-optimized resumes efficiently. The platform provides a real-time editing and preview experience, AI-powered content suggestions to improve resume quality, customizable templates, secure user authentication, and controlled resume sharing through public or private links, ensuring both flexibility and privacy in resume management.
+Smart Resume Builder is a **full-stack MERN web application** that enables users to build professional, ATS-friendly resumes with real-time preview and AI-powered content suggestions.
 
 ---
 
@@ -12,6 +12,8 @@ Smart Resume Builder is a feature-rich full-stack MERN web application designed 
 * Download resumes as **PDF**
 * Share resumes via a **unique public link**
 * Control resume visibility with **Public / Private** access settings
+* Profile image upload using **Multer** with delivery and optimization via **ImageKit**
+* Background removal and automatic background matching with resume color themes
 * Secure authentication with **JWT**
 * Protected routes and user-specific resume storage
 * Responsive and modern UI with **React & Tailwind CSS**
@@ -42,6 +44,11 @@ Smart Resume Builder is a feature-rich full-stack MERN web application designed 
 **AI Integration**
 
 * Gemini API
+
+**Media & Image Handling**
+
+* ImageKit (image upload, optimization, and delivery)
+* Multer (server-side file upload handling)
 
 ---
 
