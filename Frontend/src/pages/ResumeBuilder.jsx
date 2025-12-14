@@ -5,7 +5,7 @@ import {ArrowLeftIcon, Briefcase, ChevronLeft, ChevronRight, DownloadIcon, EyeIc
 import PersonalinfoForm from '../components/PersonalinfoForm';
 import ResumePreview from '../components/ResumePreview';
 import TemplateSelector from '../components/TemplateSelector';
-import Colorpicker from '../components/Colorpicker';
+import ColorPicker from '../components/ColorPicker';
 import ProfessionalSummaryForm from '../components/ProfessionalSummaryForm';
 import ExperienceForm from '../components/ExperienceForm';
 import EducationForm from '../components/EducationForm';
@@ -143,7 +143,7 @@ const ResumeBuilder = () => {
 
                   <div className='flex items-center gap-2'>
                     <TemplateSelector selectedTemplate={resumeData.template} onChange={(template)=> setResumeData(prev =>({...prev,template}))}/>
-                    <Colorpicker selectedColor={resumeData.accent_color} onChange={(color)=> setResumeData(prev => ({...prev, accent_color:color}))}/>
+                    <ColorPicker selectedColor={resumeData.accent_color} onChange={(color)=> setResumeData(prev => ({...prev, accent_color:color}))}/>
                   </div>
 
                   <div className='flex items-center'>
