@@ -2,7 +2,84 @@
   "hash": "4cce4933",
   "configHash": "887a7e48",
   "lockfileHash": "14b1c466",
-  "browserHash": "fc81dd5d",
-  "optimized": {},
-  "chunks": {}
+  "browserHash": "7ba81b08",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d5c12e9a",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "b23fa15c",
+      "needsInterop": false
+    },
+    "react-redux": {
+      "src": "../../node_modules/react-redux/dist/react-redux.mjs",
+      "file": "react-redux.js",
+      "fileHash": "11128af4",
+      "needsInterop": false
+    },
+    "@reduxjs/toolkit": {
+      "src": "../../node_modules/@reduxjs/toolkit/dist/redux-toolkit.modern.mjs",
+      "file": "@reduxjs_toolkit.js",
+      "fileHash": "1130ec6f",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "31138bd0",
+      "needsInterop": true
+    },
+    "react-hot-toast": {
+      "src": "../../node_modules/react-hot-toast/dist/index.mjs",
+      "file": "react-hot-toast.js",
+      "fileHash": "bee12572",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "a6becc9e",
+      "needsInterop": false
+    },
+    "lucide-react": {
+      "src": "../../node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "f84f3a05",
+      "needsInterop": false
+    },
+    "react-pdftotext": {
+      "src": "../../node_modules/react-pdftotext/dist/index.js",
+      "file": "react-pdftotext.js",
+      "fileHash": "f70f91ec",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "fs-EXGKXJFZ": {
+      "file": "fs-EXGKXJFZ.js"
+    },
+    "http-CDBGNV5A": {
+      "file": "http-CDBGNV5A.js"
+    },
+    "https-AHTDBHXR": {
+      "file": "https-AHTDBHXR.js"
+    },
+    "url-BY2ZCU5X": {
+      "file": "url-BY2ZCU5X.js"
+    },
+    "chunk-QZN2AX47": {
+      "file": "chunk-QZN2AX47.js"
+    },
+    "chunk-NTQMOZLH": {
+      "file": "chunk-NTQMOZLH.js"
+    },
+    "chunk-HXA6O6EE": {
+      "file": "chunk-HXA6O6EE.js"
+    }
+  }
 }
