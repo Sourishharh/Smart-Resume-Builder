@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {Link,useParams} from 'react-router-dom';
 import {dummyResumeData} from '../assets/assets';
 import {ArrowLeftIcon, Briefcase, ChevronLeft, ChevronRight, DownloadIcon, EyeIcon, EyeOffIcon, FileText, FolderIcon, GraduationCap, Share2Icon, Sparkle, Sparkles, User} from 'lucide-react';
-import Personalinfoform from '../components/PersonalinfoForm';
+import PersonalinfoForm from '../components/PersonalinfoForm';
 import ResumePreview from '../components/ResumePreview';
 import TemplateSelector from '../components/TemplateSelector';
 import Colorpicker from '../components/Colorpicker';
@@ -161,7 +161,7 @@ const ResumeBuilder = () => {
                     {/* {Form Content} */}
                   <div className='space-y-6'>
                      {activeSection.id === 'personal' && (
-                        <Personalinfoform data={resumeData.personal_info} onChange={(data)=>setResumeData(prev => ({...prev, personal_info:data }))} removebackground={removeBackground} setremovebackground={setRemoveBackground}/>
+                        <PersonalinfoForm data={resumeData.personal_info} onChange={(data)=>setResumeData(prev => ({...prev, personal_info:data }))} removebackground={removeBackground} setremovebackground={setRemoveBackground}/>
                      )}
                      {activeSection.id === 'summary' && (
                        <ProfessionalSummaryForm data={resumeData.professional_summary} onChange={(data)=> setResumeData(prev=>({...prev, professional_summary:data}))} setResumeData={setResumeData}/>
