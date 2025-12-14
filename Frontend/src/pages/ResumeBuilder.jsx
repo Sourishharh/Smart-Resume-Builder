@@ -36,20 +36,22 @@ const ResumeBuilder = () => {
 
   const loadExistingResume = async (params) => {
        try {
-         const {data} = await api.get('/api/resumes/public/' + resumeId, {headers: {Authorization: token}})
+         const {data} = await api.get('/api/resumes/get/' + resumeId, {headers: {Authorization: token}})
          if(data.resume){
            setResumeData(data.resume)
            document.title = data.resume.title;;
          }
        } catch (error) {
-            console.log(error.message);
-            
+            //console.log(error.message);
        }
     }
 
-  useEffect(()=>{
-    loadExistingResume()
-  },[])
+  useEffect(() => {
+  if (token && resumeId) {
+    loadExistingResume();
+  }
+}, [token, resumeId]);
+
 
   const[activeSectionIndex, setActiveSectionIndex] = useState(0);
   const[removeBackground, setRemoveBackground] = useState(false);

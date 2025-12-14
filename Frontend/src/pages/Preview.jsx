@@ -23,7 +23,7 @@ const Preview = () => {
   }
 
   useEffect(()=>{
-    loadResume()
+    loadResume();
   },[]) 
   return resumeData ?(
     <div className='bg-slate-100'>
