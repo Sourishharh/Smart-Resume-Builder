@@ -119,7 +119,7 @@ http://localhost:5173
 
 * Designed and implemented end-to-end **MERN stack architecture** following industry best practices
 * Developed secure **authentication and authorization** workflows using JWT
-* Built scalable **REST APIs** with proper validation, error handling, and middleware
+* Built scalable **APIs** with proper validation, error handling, and middleware
 * Integrated **AI-driven content generation** to enhance user productivity
 * Applied **state management with Redux Toolkit** for predictable application behavior
 * Improved application performance through component optimization and clean code structure
@@ -130,3 +130,4 @@ http://localhost:5173
 ## 🎯 Use Case
 
 This project demonstrates practical **full-stack development**, AI integration, and clean architecture—ideal for showcasing MERN stack proficiency and real-world problem solving.
+
